@@ -1,5 +1,4 @@
-# Updating Streamlit app script with additional filters as requested
-updated_app_code = """
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -73,11 +72,3 @@ st.plotly_chart(fig3)
 # Download data
 csv = filtered_df.to_csv(index=False).encode('utf-8')
 st.download_button("Download Data as CSV", csv, "filtered_property_data.csv", "text/csv")
-"""
-
-# Save updated app script
-#updated_app_file_path = '/mnt/data/enhanced_smart_property_dashboard.py'
-with open(updated_app_file_path, 'w') as file:
-    file.write(updated_app_code)
-
-updated_app_file_path
