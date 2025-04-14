@@ -12,7 +12,7 @@ def load_data():
 
 df = load_data()
 
-st.title("🏘️ Enhanced Smart Property Investment Dashboard")
+st.title("PropRadar")
 
 # Sidebar filters
 st.sidebar.header("Filter Options")
