@@ -76,7 +76,7 @@ st.download_button("Download Data as CSV", csv, "filtered_property_data.csv", "t
 """
 
 # Save updated app script
-updated_app_file_path = '/mnt/data/enhanced_smart_property_dashboard.py'
+#updated_app_file_path = '/mnt/data/enhanced_smart_property_dashboard.py'
 with open(updated_app_file_path, 'w') as file:
     file.write(updated_app_code)
 
